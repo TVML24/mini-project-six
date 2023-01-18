@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+}
+
 body {
     min-height: 100vh;
     background: darkslategray;
+    height: 900px;
 }
 
 .flex-container {
@@ -28,17 +33,13 @@ h1 {
 #query-input {
     width: 95%;
     padding-top: 1%;
+    font-size: 22px;
 }
 
-.custom-dropdown{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-.custom-button {
+#format-select,
+#format-select-two {
     width: 95%;
-    text-align: center;
-    margin-left: 2%;
+    font-size: 22px;
 }
 
 #submit-button {
@@ -46,4 +47,47 @@ h1 {
     margin-bottom: 1%;
     border-radius:  5px;
     font-size: 22px;
+}
+
+/* Affecting search-results.html */
+
+#left-panel {
+    width:20%;
+    height: 100%;
+    background: lightblue;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 80%;
+}
+
+#flex-container-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+}
+
+#query-input-two{
+    width: 95%;
+    padding-top: 1%;
+}
+
+#submit-button-two, 
+#go-back {
+    width: 95%;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+#body-flex{
+    height: 100%;
+    display: flex;
 }

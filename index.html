@@ -12,24 +12,17 @@
     <div class= "flex-container">
         <div id = "centre-div">
             <h1>Library of Congress Search Engine</h1>
-            <input type="text" id="query-input" name="key-word-input">
-            <div class="dropdown custom-dropdown">
-                <button class="btn btn-secondary dropdown-toggle custom-button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Select a Format
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Manuscripts</a>
-                <a class="dropdown-item" href="#">Newspapers</a>
-                <a class="dropdown-item" href="#">Photos</a>
-                </div>
-            </div>
+            <input type="text" id="query-input" name="key-word-input"></input>
+            <select name="format" id="format-select">
+                <option value="books">Books</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="photos">Photos</option>
+                <option value="maps">Maps</option>
+            </select>
             <button type="button" id="submit-button">Click Here!</button>
         </div>
     </div>   
-    <script
-			  src="https://code.jquery.com/jquery-3.6.3.min.js"
-			  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-			  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
 			  src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
 			  integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="

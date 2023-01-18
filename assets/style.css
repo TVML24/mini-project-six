@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    background: darkslategray;
+}
+
+.flex-container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+}
+
+#centre-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 55%;
+    background: lightslategray;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 3%;
+    font-size: 45px;
+}
+
+#query-input {
+    width: 95%;
+    padding-top: 1%;
+}
+
+.custom-dropdown{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.custom-button {
+    width: 95%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+#submit-button {
+    width: 95%;
+    margin-bottom: 1%;
+    border-radius:  5px;
+    font-size: 22px;
+}

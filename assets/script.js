@@ -7,7 +7,7 @@ var dropDown = $("#format-select");
 submitBtn.on("click", handleQuery);
 
 function handleQuery () {
-    var formatType = $("#format-select option:selected").text();
+    var formatType = $("#format-select option:selected").text().toLowerCase();
     var queryValue = queryInputEl.val();
     console.log(formatType);
     console.log(queryValue);
